@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83334057230B56FA00B60BA6 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FE4230B018400435471 /* CircleImageView.swift */; };
+		8333405A230B59EB00B60BA6 /* PropertyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83334059230B59EB00B60BA6 /* PropertyRow.swift */; };
+		8333405E230B6DD800B60BA6 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333405D230B6DD800B60BA6 /* ActivityIndicator.swift */; };
+		83334060230B7FFE00B60BA6 /* ThingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333405F230B7FFE00B60BA6 /* ThingHeader.swift */; };
+		83334063230B82F400B60BA6 /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83334062230B82F400B60BA6 /* PropertyList.swift */; };
 		83365FB5230AFF0B00435471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FB4230AFF0B00435471 /* AppDelegate.swift */; };
 		83365FB7230AFF0B00435471 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FB6230AFF0B00435471 /* SceneDelegate.swift */; };
-		83365FB9230AFF0B00435471 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FB8230AFF0B00435471 /* ContentView.swift */; };
 		83365FBB230AFF0F00435471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83365FBA230AFF0F00435471 /* Assets.xcassets */; };
 		83365FBE230AFF0F00435471 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83365FBD230AFF0F00435471 /* Preview Assets.xcassets */; };
 		83365FC1230AFF0F00435471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83365FBF230AFF0F00435471 /* LaunchScreen.storyboard */; };
 		83365FCC230AFF0F00435471 /* swiftui_wot_componentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FCB230AFF0F00435471 /* swiftui_wot_componentsTests.swift */; };
 		83365FD7230AFF0F00435471 /* swiftui_wot_componentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FD6230AFF0F00435471 /* swiftui_wot_componentsUITests.swift */; };
+		83365FEA230B089F00435471 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FE8230B073800435471 /* MapView.swift */; };
+		83AAFBDB230B28FE00A933DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FB8230AFF0B00435471 /* ContentView.swift */; };
+		83C3C11B230B4D4D00AE4E9F /* GeometryGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C11A230B4D4D00AE4E9F /* GeometryGetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83334059230B59EB00B60BA6 /* PropertyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyRow.swift; sourceTree = "<group>"; };
+		8333405D230B6DD800B60BA6 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		8333405F230B7FFE00B60BA6 /* ThingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingHeader.swift; sourceTree = "<group>"; };
+		83334062230B82F400B60BA6 /* PropertyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyList.swift; sourceTree = "<group>"; };
 		83365FB1230AFF0B00435471 /* swiftui-wot-components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-wot-components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83365FB4230AFF0B00435471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83365FB6230AFF0B00435471 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		83365FD2230AFF0F00435471 /* swiftui-wot-componentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-wot-componentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83365FD6230AFF0F00435471 /* swiftui_wot_componentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_wot_componentsUITests.swift; sourceTree = "<group>"; };
 		83365FD8230AFF0F00435471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83365FE4230B018400435471 /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		83365FE8230B073800435471 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		83C3C11A230B4D4D00AE4E9F /* GeometryGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83334058230B59D700B60BA6 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				83334062230B82F400B60BA6 /* PropertyList.swift */,
+				83334059230B59EB00B60BA6 /* PropertyRow.swift */,
+				8333405D230B6DD800B60BA6 /* ActivityIndicator.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		83334061230B82DF00B60BA6 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				83334058230B59D700B60BA6 /* Properties */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		83334064230B884B00B60BA6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				83365FE6230B018B00435471 /* Thing Details */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		83334065230B885800B60BA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		83365FA8230AFF0B00435471 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +146,9 @@
 		83365FB3230AFF0B00435471 /* swiftui-wot-components */ = {
 			isa = PBXGroup;
 			children = (
+				83334065230B885800B60BA6 /* Models */,
+				83334064230B884B00B60BA6 /* Scenes */,
+				83C3C119230B4D3D00AE4E9F /* View Utilities */,
 				83365FB4230AFF0B00435471 /* AppDelegate.swift */,
 				83365FB6230AFF0B00435471 /* SceneDelegate.swift */,
 				83365FB8230AFF0B00435471 /* ContentView.swift */,
@@ -134,6 +184,33 @@
 				83365FD8230AFF0F00435471 /* Info.plist */,
 			);
 			path = "swiftui-wot-componentsUITests";
+			sourceTree = "<group>";
+		};
+		83365FE6230B018B00435471 /* Thing Details */ = {
+			isa = PBXGroup;
+			children = (
+				83365FE7230B019F00435471 /* Header */,
+				83334061230B82DF00B60BA6 /* Tabs */,
+			);
+			path = "Thing Details";
+			sourceTree = "<group>";
+		};
+		83365FE7230B019F00435471 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				8333405F230B7FFE00B60BA6 /* ThingHeader.swift */,
+				83365FE8230B073800435471 /* MapView.swift */,
+				83365FE4230B018400435471 /* CircleImageView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		83C3C119230B4D3D00AE4E9F /* View Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				83C3C11A230B4D4D00AE4E9F /* GeometryGetter.swift */,
+			);
+			path = "View Utilities";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C3C11B230B4D4D00AE4E9F /* GeometryGetter.swift in Sources */,
+				83AAFBDB230B28FE00A933DB /* ContentView.swift in Sources */,
+				83334057230B56FA00B60BA6 /* CircleImageView.swift in Sources */,
+				83334060230B7FFE00B60BA6 /* ThingHeader.swift in Sources */,
 				83365FB5230AFF0B00435471 /* AppDelegate.swift in Sources */,
+				8333405E230B6DD800B60BA6 /* ActivityIndicator.swift in Sources */,
+				8333405A230B59EB00B60BA6 /* PropertyRow.swift in Sources */,
+				83365FEA230B089F00435471 /* MapView.swift in Sources */,
+				83334063230B82F400B60BA6 /* PropertyList.swift in Sources */,
 				83365FB7230AFF0B00435471 /* SceneDelegate.swift in Sources */,
-				83365FB9230AFF0B00435471 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
