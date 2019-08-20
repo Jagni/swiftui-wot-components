@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct ActionList: View {
-    @State var showingForm = false
+    @State var showingForm : Bool = false
     @Binding var offset : CGFloat
-
+    
     var body: some View {
         ScrollView{
             GeometryReader { geometry -> Text in
@@ -28,7 +28,7 @@ struct ActionList: View {
             }
         }
         .sheet(isPresented: $showingForm){
-            Text("Test")
+            ActionSheet(showingForm: self.$showingForm)
         }
     }
 }
@@ -36,7 +36,7 @@ struct ActionList: View {
 #if DEBUG
 struct ActionList_Previews: PreviewProvider {
     @State static var initialOffset : CGFloat = 0 // Note: it must be static
-
+    
     static var previews: some View {
         PropertyList(offset: $initialOffset)
     }
