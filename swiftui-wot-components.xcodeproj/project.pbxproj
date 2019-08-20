@@ -12,6 +12,8 @@
 		8333405E230B6DD800B60BA6 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333405D230B6DD800B60BA6 /* ActivityIndicator.swift */; };
 		83334060230B7FFE00B60BA6 /* ThingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333405F230B7FFE00B60BA6 /* ThingHeader.swift */; };
 		83334063230B82F400B60BA6 /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83334062230B82F400B60BA6 /* PropertyList.swift */; };
+		8333406A230BA3C500B60BA6 /* ActionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83334068230B8C9100B60BA6 /* ActionList.swift */; };
+		8333406B230BA3C700B60BA6 /* ActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83334069230B8C9200B60BA6 /* ActionRow.swift */; };
 		83365FB5230AFF0B00435471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FB4230AFF0B00435471 /* AppDelegate.swift */; };
 		83365FB7230AFF0B00435471 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365FB6230AFF0B00435471 /* SceneDelegate.swift */; };
 		83365FBB230AFF0F00435471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83365FBA230AFF0F00435471 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		8333405D230B6DD800B60BA6 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		8333405F230B7FFE00B60BA6 /* ThingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingHeader.swift; sourceTree = "<group>"; };
 		83334062230B82F400B60BA6 /* PropertyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyList.swift; sourceTree = "<group>"; };
+		83334068230B8C9100B60BA6 /* ActionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionList.swift; sourceTree = "<group>"; };
+		83334069230B8C9200B60BA6 /* ActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRow.swift; sourceTree = "<group>"; };
 		83365FB1230AFF0B00435471 /* swiftui-wot-components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-wot-components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83365FB4230AFF0B00435471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83365FB6230AFF0B00435471 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +99,6 @@
 			children = (
 				83334062230B82F400B60BA6 /* PropertyList.swift */,
 				83334059230B59EB00B60BA6 /* PropertyRow.swift */,
-				8333405D230B6DD800B60BA6 /* ActivityIndicator.swift */,
 			);
 			path = Properties;
 			sourceTree = "<group>";
@@ -103,6 +106,7 @@
 		83334061230B82DF00B60BA6 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				83334066230B8C7700B60BA6 /* Actions */,
 				83334058230B59D700B60BA6 /* Properties */,
 			);
 			path = Tabs;
@@ -121,6 +125,15 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		83334066230B8C7700B60BA6 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				83334068230B8C9100B60BA6 /* ActionList.swift */,
+				83334069230B8C9200B60BA6 /* ActionRow.swift */,
+			);
+			path = Actions;
 			sourceTree = "<group>";
 		};
 		83365FA8230AFF0B00435471 = {
@@ -209,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				83C3C11A230B4D4D00AE4E9F /* GeometryGetter.swift */,
+				8333405D230B6DD800B60BA6 /* ActivityIndicator.swift */,
 			);
 			path = "View Utilities";
 			sourceTree = "<group>";
@@ -348,7 +362,9 @@
 				83AAFBDB230B28FE00A933DB /* ContentView.swift in Sources */,
 				83334057230B56FA00B60BA6 /* CircleImageView.swift in Sources */,
 				83334060230B7FFE00B60BA6 /* ThingHeader.swift in Sources */,
+				8333406B230BA3C700B60BA6 /* ActionRow.swift in Sources */,
 				83365FB5230AFF0B00435471 /* AppDelegate.swift in Sources */,
+				8333406A230BA3C500B60BA6 /* ActionList.swift in Sources */,
 				8333405E230B6DD800B60BA6 /* ActivityIndicator.swift in Sources */,
 				8333405A230B59EB00B60BA6 /* PropertyRow.swift in Sources */,
 				83365FEA230B089F00435471 /* MapView.swift in Sources */,
